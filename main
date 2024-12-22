@@ -1,0 +1,34 @@
+// Функция для отправки сообщения в Telegram
+async function sendTelegramMessage(message) {
+    const botToken = '8186876939:AAGtcnXjefu116zBAq6G80Oq_IpZi4JYxP8'; // Замените на токен вашего бота
+    const chatId = '-1002453736153';     // Замените на ID чата/канала
+    
+    const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+    
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                chat_id: chatId,
+                text: message
+            })
+        });
+
+        const data = await response.json();
+        
+        if (data.ok) {
+            console.log('Сообщение успешно отправлено в Telegram');
+        } else {
+            console.error('Ошибка при отправке сообщения:', data.description);
+        }
+        
+    } catch (error) {
+        console.error('Ошибка при отправке запроса:', error);
+    }
+}
+
+// Пример использования
+sendTelegramMessage('v 1.1');
