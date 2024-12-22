@@ -31,4 +31,4 @@ async function sendTelegramMessage(message) {
 }
 
 // Пример использования
-sendTelegramMessage('v 1.4');
+sendTelegramMessage('v 1.5');
