@@ -1315,7 +1315,7 @@ e.addButton(N, "💎 КУПИТЬ КЛИЕНТ В TELEGRAM", false, function() {
 
             <div class="price-box">
                 <h2>🌈 Ultimate версия</h2>
-                <div class="price-tag">1999₽</div>
+                <div class="price-tag">399₽</div>
                 <ul>
                     <li>🎉 Все функции Pro</li>
                     <li>🔄 Создать резервное подключение</li>
@@ -1348,7 +1348,7 @@ e.addButton(N, "💎 КУПИТЬ КЛИЕНТ В TELEGRAM", false, function() {
                         </div>
                         <div class="version-option" data-version="ultimate" data-price="1999">
                             <h3>Ultimate</h3>
-                            <p>1999₽</p>
+                            <p>399₽</p>
                         </div>
                     </div>
                     <input type="hidden" name="version" id="selectedVersion" required>
@@ -3915,7 +3915,7 @@ e.addButton(N, "✏️ СВОЙ ТЕКСТ СПАМ", !0, (function startCustomS
     
                     <div class="price-box">
                         <h2>🌈 Ultimate версия</h2>
-                        <div class="price-tag">1999₽</div>
+                        <div class="price-tag">399₽</div>
                         <ul>
                             <li>🎉 Все функции Pro</li>
                             <li>🔄 Создать резервное подключение</li>
@@ -3944,7 +3944,7 @@ e.addButton(N, "✏️ СВОЙ ТЕКСТ СПАМ", !0, (function startCustomS
                             </div>
                             <div class="version-option" data-version="ultimate" data-price="1999">
                                 <h3>Ultimate</h3>
-                                <p>1999₽</p>
+                                <p>399₽</p>
                             </div>
                         </div>
                         <input type="hidden" name="version" id="selectedVersion" required>
