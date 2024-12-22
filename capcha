@@ -821,7 +821,7 @@
                     }, 1000);
                     return false;
                 }
-                return value === 'VALID_KEY'; // Замените 'VALID_KEY' на ваш реальный ключ
+                return value === '123'; // Замените 'VALID_KEY' на ваш реальный ключ
             };
 
             const handleInvalidKey = () => {
